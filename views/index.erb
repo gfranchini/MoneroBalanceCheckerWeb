@@ -1,4 +1,13 @@
-<p>Current pending balance on MoneroHash.com: <%= @balance %> XMR</p>
-<p>Which is equal to: $<%= @pending_balance %> USD today.</p>
-<p>Current hash rate: <%= @hash_rate %></p>
-<p>Total paid: <%= @payments %> XMR</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="1">
+    <title></title>
+  </head>
+  <body>
+    <p>Current pending balance on MoneroHash.com: <%= @balance %> XMR</p>
+    <p>Which is equal to: $<%= @worth %> USD today.</p>
+    <p>Current hash rate: <%= @hash_rate %></p>
+  </body>
+</html>
