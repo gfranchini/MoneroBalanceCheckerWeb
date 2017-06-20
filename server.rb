@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'httparty'
 require 'nokogiri'
-require 'tty-spinner'
 require 'uri'
 
 class Monero
