@@ -1,0 +1,99 @@
+body {
+  background-color: #edeff0;
+  font-family: "Helvetica", Arial, sans-serif;
+  padding: 40px;
+  text-align: left;
+  color: #333;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+a, input[type="submit"] {
+  display: inline-block;
+  background-color: #e15258;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 100px;
+  transition: background-color 200ms ease-in-out;
+  letter-spacing: 0.05em;
+  border: none;
+}
+a:hover,
+a:focus,
+a:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  background-color: #c3222a;
+}
+
+div + a,
+div a {
+  background-color: #aaa;
+}
+div + a:hover,
+div a:hover {
+  background-color: #888;
+}
+div a { margin-right: 10px; }
+div a + form { display: inline-block; }
+
+p + div {
+  margin-top: 50px;
+  text-align: center;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+div {
+  text-align: left;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  border-bottom: solid 2px #ddd;
+  margin-bottom: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+fieldset input,
+fieldset textarea { width: 100%; }
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px 0;
+  text-indent: 10px;
+  border: solid 2px #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0099ff;
+}
