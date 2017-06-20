@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'httparty'
 require 'nokogiri'
-require 'uri'
+
 
 
 
